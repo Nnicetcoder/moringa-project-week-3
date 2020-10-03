@@ -19,8 +19,13 @@ padding-top:90px;
   text-align: center;
 }
 .row{
-margin:5px;
+width:80%;
 float:left;
 width:180px;
 
+}
+.column{
+float:left;
+margin:5px;
+width:60px;
 }

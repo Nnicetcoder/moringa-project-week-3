@@ -1,3 +1,12 @@
 .backimg{
-background-image:url(backdiv.jpg);height:400px;width:100%;
+background-image:url(backdiv.jpg);height:400px;width:100%;background-size:cover;
+padding-top:100px;
+
+}
+.backimg2{
+background-image:url(c_image.jpg);height:300px;width:100%;background-size:cover;
+padding-top:90px;
+
+
+
 }

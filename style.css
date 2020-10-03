@@ -6,7 +6,15 @@ padding-top:100px;
 .backimg2{
 background-image:url(c_image.jpg);height:300px;width:100%;background-size:cover;
 padding-top:90px;
-
-
-
+}
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+div.desc {
+  margin:20px;
+  padding-top:20px;
+  padding-left: 35px;
+  text-align: center;
 }

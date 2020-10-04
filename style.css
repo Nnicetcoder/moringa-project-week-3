@@ -11,26 +11,31 @@ padding-top:90px;
   margin: 5px;
   float: left;
   width: 180px;
+ 
 }
+.row gallery img{
+                  width:100px;
+                  height:80px;
+
+                }
 .desc {
   margin:20px;
   padding-top:20px;
   padding-left: 35px;
   text-align: center;
 }
-main{
-margin-left:120px;
+
+table{
+padding-left:120px;
+
+table th{
+  text-align:center;
+         }
+}
 
 
-}
-.box{
-display:;
-width:100%;
-padding:10px;
-float:left;
-width:180px;
-}
-img{
-width:100%;
-float:left;
+ table img{
+width:200px;
+height:120px;
+
 }

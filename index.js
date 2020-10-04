@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $("#div11").click(function(){
     $("div12").show();
   });
@@ -20,20 +21,7 @@ $(document).ready(function(){
     $("#div31").hide();
   });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-});
+})
 
 
 

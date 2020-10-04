@@ -1,13 +1,38 @@
 $(document).ready(function(){
-  $("img").click(function(){
-    $("#div1").fadeToggle();});
+  $("#div11").click(function(){
+    $("div12").show();
+  });
+  $("#div12").click(function(){
+    $("#div11").hide();
+  });
 
-  $("img " ).click(function(){
-    $("#div2").fadeToggle();});
+ $("#div21").click(function(){
+    $("div22").show();
+  });
+  $("#div22").click(function(){
+    $("#div21").hide();
+  });
 
-  $("img ").click(function(){
-    $("#div3").fadeToggle();});
-  
+ $("#div31").click(function(){
+    $("div32").show();
+  });
+  $("#div32").click(function(){
+    $("#div31").hide();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
 
 

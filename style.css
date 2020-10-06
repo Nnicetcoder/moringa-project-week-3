@@ -3,7 +3,9 @@ background-image:url(backdiv.jpg);height:400px;width:100%;background-size:cover;
 padding-top:100px;
 }
 .backimg img {
-left:150px;
+  margin: 10px;
+  left:150px;
+  padding-left: 470px;
 }
 .backimg2{
 background-image:url(s_image.jpg);height:300px;width:100%;background-size:cover;
@@ -49,9 +51,10 @@ padding:0 22px;
 width:270px;
 height:30px;
 left:100px;
-line height:40px;
+line-height:40px;
 opacity:20%;
-border:1px solid white;
+border-radius:4px; 
+border:2px solid #00cc;
 }
 .email{
 position:relative;
@@ -60,29 +63,27 @@ padding:0 22px;
 width:270px;
 height:30px;
 left:300px;
-line height:40px;
+line-height:40px;
 opacity:20%;
-border:1px solid white;
-}
+border:2px solid #aaa;
+box-sizing: border-box;
+border-color: dodgerblue;
+font}
 .message{
 position:relative;
 margin-top:30px;
 padding:0 22px;
 width:790px;
-height:200px;
+height:100px;
 left:100px;
-line height:40px;
+line-height:40px;
 opacity:20%;
 border:1px solid white;
-
-
 }
-
-
-
-
-
-
+input[type=text]:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
 
 }
 
@@ -101,7 +102,7 @@ padding-left:300px;
 padding-top:100px;
 margin:10px;
 left:150px;
-top:50px;
+
 }
 
  table img{

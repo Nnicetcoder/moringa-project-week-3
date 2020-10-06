@@ -1,25 +1,24 @@
 $(document).ready(function(){
 
-  $("#div11").click(function(){
-    $("div12").show();
-  });
-  $("#div12").click(function(){
-    $("#div11").hide();
-  });
+   $(".gallery#div11").click(function(){
+    $(".gallery#div12").show();
+    $(".gallery#div11").hide();
+    });
+  
 
- $("#div21").click(function(){
-    $("div22").show();
-  });
-  $("#div22").click(function(){
-    $("#div21").hide();
-  });
+ $(".gallery#div21").click(function(){
+    $(".gallery#div22").show();
+    $(".gallery#div21").hide();
+    	
+    });
+  
+  
 
- $("#div31").click(function(){
-    $("div32").show();
+ $(".gallery#div31").click(function(){
+    $(".gallery#div32").show();
+    $(".gallery#div31").hide();
   });
-  $("#div32").click(function(){
-    $("#div31").hide();
-  });
+ 
 
 })
 
